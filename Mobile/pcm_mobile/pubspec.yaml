@@ -1,0 +1,65 @@
+name: pcm_mobile
+description: "Hệ Thống Quản Lý CLB Pickleball - Vợt Thủ Phố Núi"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  
+  # HTTP Client
+  dio: ^5.4.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Navigation
+  go_router: ^14.0.0
+  
+  # Secure Storage for JWT
+  flutter_secure_storage: ^9.0.0
+  
+  # SignalR Client
+  signalr_netcore: ^1.3.7
+  
+  # Calendar
+  table_calendar: ^3.1.0
+  
+  # Charts
+  fl_chart: ^0.68.0
+  
+  # Image Picker
+  image_picker: ^1.0.7
+  
+  # Intl for date formatting
+  intl: ^0.19.0
+  
+  # Pull to refresh
+  pull_to_refresh: ^2.0.0
+  
+  # Cached network image
+  cached_network_image: ^3.3.1
+  
+  # Shimmer loading
+  shimmer: ^3.0.0
+  
+  # Font Awesome Icons
+  font_awesome_flutter: ^10.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
