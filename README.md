@@ -54,12 +54,37 @@ Dự án được xây dựng với công nghệ **ASP.NET Core (Backend)** và 
     flutter run -d emulator-5554 # Chạy trên Android Emulator
     ```
 
-## ✨ Tính năng chính
-- **Đặt sân online**: Xem lịch, chọn giờ, thanh toán ví.
-- **Sàn Kèo (Duel)**: Tạo kèo thách đấu, chấp nhận/từ chối, cập nhật kết quả.
-- **Bảng Xếp Hạng**: Top game thủ dựa trên điểm số DUPR/Rank.
-- **Ví điện tử**: Nạp tiền, xem lịch sử giao dịch.
-- **Tin tức & Sự kiện**: Cập nhật thông tin giải đấu.
+## ✨ Tính năng chi tiết
+
+### 1. 🔐 Hệ thống Tài khoản & Bảo mật
+- **Đăng ký / Đăng nhập**: Xác thực qua JWT Token an toàn.
+- **Tự động đăng nhập**: Lưu phiên làm việc, không bị out khi reload trang.
+- **Quản lý hồ sơ**: Cập nhật thông tin cá nhân, avatar.
+
+### 2. 📅 Đặt sân (Booking)
+- **Lịch trực quan**: Hiển thị trạng thái sân theo màu sắc (✅ Trống, ❌ Đã đặt, 🔒 Của tôi).
+- **Booking Flow**: Kiểm tra số dư, check trùng giờ, tính tiền tự động.
+- **Recurring Booking**: Hỗ trợ đặt lịch định kỳ (Hàng tuần/Tháng) cho khách VIP.
+- **Lịch sử**: Xem lại các sân đã đặt, hỗ trợ hủy sân (theo chính sách).
+
+### 3. ⚔️ Sàn Kèo (Duel System) - *Tính năng nổi bật*
+- **Thách đấu**: Tạo kèo 1v1 hoặc 2v2 với số tiền cược tùy chọn.
+- **Sàn giao dịch**: Danh sách các kèo đang chờ đối thủ.
+- **Quy trình chuẩn**: Tạo kèo -> Giữ tiền cọc -> Đối thủ nhận kèo -> Giữ tiền đối thủ -> Đánh xong -> Admin xác nhận -> Chia thưởng.
+
+### 4. 💰 Ví điện tử & Thanh toán
+- **Quản lý số dư**: Hiển thị tiền thật và xu trong game.
+- **Nạp tiền**: Hệ thống yêu cầu nạp tiền (Demo), Admin duyệt cộng tiền.
+- **Lịch sử giao dịch**: Log chi tiết dòng tiền (Nạp, Trừ tiền đặt sân, Tiền thắng/thua kèo).
+
+### 5. 🏆 Xếp hạng & Thống kê (Leaderboard)
+- **Xếp hạng thực**: Tính điểm dựa trên số trận thắng/thua và chỉ số DUPR.
+- **Phân cấp (Tier)**: Chia hạng Gold, Silver, Diamond...
+- **Dashboard**: Thống kê nhanh số lượng thành viên, sân bãi, trận đấu trong ngày.
+
+### 6. 📰 Tin tức & Tiện ích khác
+- **Banner/News**: Ghim tin tức quan trọng lên trang chủ.
+- **Giao diện**: Responsive, hỗ trợ Dark/Light mode (tùy chỉnh).
 
 ## � Tài khoản Test (Dành cho Giảng viên chấm bài)
 - **Email**: `tung@test.com` (hoặc `admin@test.com`)
