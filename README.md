@@ -61,7 +61,8 @@ Dự án được xây dựng với công nghệ **ASP.NET Core (Backend)** và 
 - **Ví điện tử**: Nạp tiền, xem lịch sử giao dịch.
 - **Tin tức & Sự kiện**: Cập nhật thông tin giải đấu.
 
-## 📝 Thông tin nhóm / Sinh viên
-- **Họ và tên**: [Điền tên của bạn]
-- **MSSV**: [Điền MSSV]
-- **Lớp**: [Điền lớp]
+## � Tài khoản Test (Dành cho Giảng viên chấm bài)
+- **Email**: `tung@test.com` (hoặc `admin@test.com`)
+- **Mật khẩu**: `Pcm@12345`
+> *(Lưu ý: Tài khoản này đã được nạp sẵn tiền vào ví để test chức năng đặt sân & kèo)*
+
